@@ -1,3 +1,39 @@
 body {
   background-color: #90a8c3;
 }
+
+.heading {
+  font-size: 400%;
+  color: #f4cae0;
+  text-align: center;
+}
+
+.links {
+  font-size: 250%;
+  text-align: center;
+}
+
+.text {
+  color: #231b1b;
+  font-size: 170%;
+  width: 87%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.images {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  width: 45%;
+}
+
+.div {
+  display: flex;
+  justify-content: center;
+  top: 3000px;
+}
+
+#answer-one {
+  text-align: center;
+}
