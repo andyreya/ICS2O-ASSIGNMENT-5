@@ -14,16 +14,16 @@ document.getElementById('button-one' || 'button-two').addEventListener('click', 
 function calculate (area) {
   if (id = 'one') {
      userInputOne = document.getElementById('input-one').value 
-  userInputOne = parseInt(userInputOne)
-  radius = userInputOne / 2
-  area = Math.PI * radius ** 2
-  area = area.toFixed(2)
-  document.getElementById('answer-one').innerHTML = ('The area of this circle is ' + area)
+    userInputOne = parseInt(userInputOne)
+    radius = userInputOne / 2
+    area = Math.PI * radius ** 2
+    area = area.toFixed(2)
+    document.getElementById('answer-one').innerHTML = ('The area of this circle is ' + area)
   } else if (id = 'two') {
     userInputTwo = document.getElementById('input-two').value
-  userInputTwo = parseInt(userInputTwo)
-  radiusTwo = userInputTwo / 2
-  circumference = Math.PI * radius * 2
-  document.getElementById('answer-two').innerHTML = ('The circumference of this circle is ' + circumference)
+    userInputTwo = parseInt(userInputTwo)
+    radiusTwo = userInputTwo / 2
+    circumference = Math.PI * radius * 2
+    document.getElementById('answer-two').innerHTML = ('The circumference of this circle is ' + circumference)
   }
 }
