@@ -1,7 +1,7 @@
-// creates variables 
+// creates variables
 
 let userInputTwo = 0
-let circumference = 0
+let radius = 0
 
 // makes action occur when button is clicked 
 document.getElementById('button-two').addEventListener('click', calculate)
