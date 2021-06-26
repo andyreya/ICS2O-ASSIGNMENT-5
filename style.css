@@ -36,4 +36,12 @@ body {
 
 #answer-one {
   text-align: center;
+  font-size: 250%;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+#answer-two {
+  text-align: center;
+  font-size: 250%;
+   font-family: 'Courier New', Courier, monospace;
 }
